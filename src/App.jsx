@@ -12,9 +12,9 @@ const App = () => {
   return (
     <React.Suspense fallback={<div>Loading...</div>}>
     <Routes>
-      <Route path="/" element={<Mainlayout/>}>
-        <Route path="/" element={<Home />} />
-        <Route path="about" element={<About/>} />
+      <Route path="/currensy" element={<Mainlayout/>}>
+        <Route path="/currensy" element={<Home />} />
+        <Route path="currensy/about" element={<About/>} />
       </Route>
       <Route path="*" element={<NotFoundBlock />} />
     </Routes>
