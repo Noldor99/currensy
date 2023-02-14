@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/currensy/static/css/main.e6c13ad2.css",
+    "main.js": "/currensy/static/js/main.0de4313f.js",
+    "index.html": "/currensy/index.html",
+    "main.e6c13ad2.css.map": "/currensy/static/css/main.e6c13ad2.css.map",
+    "main.0de4313f.js.map": "/currensy/static/js/main.0de4313f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e6c13ad2.css",
+    "static/js/main.0de4313f.js"
+  ]
+}
