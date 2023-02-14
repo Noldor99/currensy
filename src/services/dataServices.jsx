@@ -5,7 +5,8 @@ export const ratesFetch = createAsyncThunk(
   "rates/ratesFetch",
   async () => {
     try {
-      const response = await axios.get(`https://bank.gov.ua/NBUStatService/v1/statdirectory/exchange?json`);
+      const response = await axios.get(
+        `https://bank.gov.ua/NBUStatService/v1/statdirectory/exchange?json`);
       return response.data;
     } catch (error) {
       console.log(error);
@@ -14,9 +15,10 @@ export const ratesFetch = createAsyncThunk(
 )
 export const dataFetch = createAsyncThunk(
   "data/dataFetch",
-  async () => {
+  async (data) => {
     try {
-      const response = await axios.get(`https://bank.gov.ua/NBUStatService/v1/statdirectory/exchange?valcode=EUR&date=20200302&json`);
+      const response = await axios.get(
+        `https://bank.gov.ua/NBUStatService/v1/statdirectory/exchange?date=${data}&json`);
       console.log(response.data)
       return response.data;
     } catch (error) {

@@ -20,7 +20,7 @@ import { useSelector } from 'react-redux';
 
 
 const drawerWidth = 240;
-const navItems = [{nameLink: 'Home', link:'/currensy'}, {nameLink: 'About', link:'currensy/about'}];
+const navItems = [{nameLink: 'Home', link:''}, {nameLink: 'About', link:'about'}];
 
 
 const Header = (props) => {

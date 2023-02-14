@@ -4,9 +4,12 @@
 /node_modules
 /.pnp
 .pnp.js
+(#)SavePoint
 
 # testing
 /coverage
+
+(4)(Exchanger)SavePoint.jpg
 
 # production
 /build
